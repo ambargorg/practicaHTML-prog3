@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body
+    style="
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background-color: rgba(81, 81, 196, 0.753);
+    "
+  >
+    <header style="text-align: center; color: white; margin-bottom: 20px;">
+      <h1>
+        <u>¿Qué se puede hacer con HTML?</u>
+      </h1>
+      <h2>FORMULARIOS</h2>
+      <nav style="display: flex; justify-content: center; gap: 50px; margin-bottom: 20px;">
+        <h4><a href="index.html">Volver a Inicio</a></h4>
+        <h4><a href="multimedia.html">Ir a Multimedia</a></h4>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h3>Formulario de Contacto</h3>
+        <form style="display: flex; flex-direction: column; align-items: center; gap: 15px;">
+          <div>
+            <label for="name">Nombre:</label>
+            <input id="name" type="text" placeholder="Ingrese su nombre" />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="example@email.com" />
+          </div>
+          <div>
+            <label for="dob">Fecha de Nacimiento:</label>
+            <input id="dob" type="date" />
+          </div>
+          <div>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" placeholder="Tu mensaje"></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer style="display: flex; justify-content: center">
+        Ambar Gorgon 2Prog1
+      </footer>
+  </body>
+</html>

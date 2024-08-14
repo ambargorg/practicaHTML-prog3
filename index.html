@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práctico HTML</title>
+    <style>
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body
+    style="
+      background: linear-gradient(to bottom, #f5992f, #ffffff);
+    "
+  >
+  <header style="display: flex; flex-direction: column;">
+    <h1 style="align-self: center; color: white">
+      <u>¿Qué se puede hacer con HTML?</u>
+    </h1>
+    <h2 style="align-self: center; color: white">ESTRUCTURA</h2>
+    <div style="align-self: center; display: flex; gap: 50px">
+      <h4><a href="multimedia.html">Ir a Multimedia</a></h4>
+      <h4><a href="formulario.html">Ir a Formulario</a></h4>
+    </div>
+  </header>
+  <main>
+    <div style="border-bottom: 1px solid black">
+      <h2>1. Estructura básica del documento HTML</h2>
+      <p>
+        La estructura de HTML se basa en el uso de etiquetas que definen el contenido y su organización en una página web. <br> Estas etiquetas, encerradas en corchetes angulares, vienen en pares para marcar el inicio y el fin de cada elemento. <br> HTML utiliza una <b>jerarquía de elementos</b>, que incluye contenedores como div y header, así como elementos en línea <br>como span y a <span> para estructurar y formatear el contenido de manera organizada. <span> Esta estructura permite a los navegadores <br> <u>interpretar y mostrar</u> correctamente las páginas web.</span>
+      </p>
+    </div>
+    <section style="border-bottom: 1px solid black">
+      <h2>2.1 Encabezados</h2>
+      <h1>Este es un encabezado H1</h1>
+      <h2>Este es un encabezado H2</h2>
+      <h3>Este es un encabezado H3</h3>
+      <h4>Este es un encabezado H4</h4>
+      <h5>Este es un encabezado H5</h5>
+      <h6>Este es un encabezado H6</h6>
+      <h2>2.2 Propiedades del texto</h2>
+      <p><b>Este es un texto en negrita</b></p>
+      <p><em>Este es un texto en cursiva</em></p>
+      <p><u>Este es un texto subrayado</u></p>
+      <p><mark>Este es un texto resaltado</mark></p>
+    </section>
+    <section style="border-bottom: 1px solid black">
+      <h2>3. Divisiones y Agrupación de Contenido</h2>
+      <div style="background-color: rgb(243, 191, 96)">
+        <h3>Sección 1</h3>
+        <p>Contenido de la primera sección agrupada en un div</p>
+      </div>
+      <div style="background-color: rgb(255, 168, 136)">
+        <h3>Sección 2</h3>
+        <p>Contenido de la segunda sección agrupada en un div</p>
+      </div>
+    </section>
+    <section style="border-bottom: 1px solid black">
+      <h2>4. Enlaces y Listas</h2>
+      <p>
+        Visita nuestro
+        <a target="_blank" href="https://developer.mozilla.org/es/docs/Web/HTML"
+          >sitio web</a
+        >
+        para más información
+      </p>
+      <h4>Enlaces internos en lista ordenada:</h4>
+      <ol>
+        <nav>
+          <li><a href="multimedia.html">Ir a Multimedia</a></li>
+          <li><a href="formulario.html">Ir a Formulario</a></li>
+        </nav>
+      </ol>
+      <h4>Lista Desordenada:</h4>
+      <ul>
+        <li>Elemento 1 de la lista desordenada</li>
+        <li>Elemento 2 de la lista desordenada</li>
+        <li>Elemento 3 de la lista desordenada</li>
+      </ul>
+    </section>
+    <section>
+      <h2>5. Tablas</h2>
+      <table style="border-collapse: collapse; border: 3px solid black">
+        <thead>
+          <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1,1</td>
+            <td>1,2</td>
+          </tr>
+          <tr>
+            <td>2,1</td>
+            <td>2,2</td>
+          </tr>
+          <tr>
+            <td>3,1</td>
+            <td>3,2</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <aside style="border-top: 1px solid black; padding: 10px; background-color: #f0f0f0;">
+    <h2>Extra</h2>
+    <p>Para complementar la información proporcionada, visita una guia rapida de aprendizaje de HTML en <a href="https://www.uv.es/jac/guia/index.html" target="_blank">este link.</a></p>
+  </aside>
+  <footer style="display: flex; justify-content: center;">
+    Ambar Gorgon 2Prog1
+  </footer>
+  </body>
+</html>
