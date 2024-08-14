@@ -2,6 +2,9 @@
 
 Este proyecto muestra ejemplos básicos de HTML, incluyendo la estructura de una página web, el uso de multimedia y formularios. Está compuesto por tres páginas principales:
 
+##Abrir el proyecto
+https://practica-html-ambargorgon.vercel.app/
+
 ## Contenido del Proyecto
 
 1. **Página de Inicio (`index.html`)**
@@ -30,7 +33,7 @@ Este proyecto muestra ejemplos básicos de HTML, incluyendo la estructura de una
 
 1. **Clonar el Repositorio desde GitHub**
 
-   Para clonar el repositorio en tu máquina local, abre una terminal y ejecuta el siguiente comando:
+   Para clonar el repositorio abre una terminal y ejecuta el siguiente comando:
 
    ```bash
    git clone https://github.com/ambargorg/practicaHTML-prog3
